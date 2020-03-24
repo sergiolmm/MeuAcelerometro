@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/txt"
+        android:layout_width="0dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        android:paddingTop="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtSensor"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15sp"
+            android:paddingTop="10sp"
+            android:text="Sensor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtLight"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15sp"
+            android:paddingTop="10sp"
+            android:text="alo"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtSensorA"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15sp"
+            android:paddingTop="10sp"
+            android:text="TextView"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtXCoord"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15sp"
+            android:paddingTop="10sp"
+            android:text="TextView"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtYCoord"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15sp"
+            android:paddingTop="10sp"
+            android:text="TextView"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtZCoord"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="15sp"
+            android:paddingTop="10sp"
+            android:text="TextView"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
